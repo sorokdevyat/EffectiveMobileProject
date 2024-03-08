@@ -1,0 +1,34 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="emp-14" author="NV">
+        <createTable tableName="user_phone_numbers">
+            <column name="user_id" type="BIGINT">
+            </column>
+            <column name="phone" type="VARCHAR(20)">
+            </column>
+        </createTable>
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="user_phone_numbers"
+                                 constraintName="fk_user_phone_numbers_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="user"/>
+    </changeSet>
+
+    <changeSet id="emp-15" author="NV">
+        <createTable tableName="user_emails">
+            <column name="user_id" type="BIGINT">
+            </column>
+            <column name="email" type="VARCHAR(250)">
+            </column>
+        </createTable>
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="user_emails"
+                                 constraintName="fk_user_emails_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="user"/>
+    </changeSet>
+
+</databaseChangeLog>

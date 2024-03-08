@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  postgresql:
+    image: postgres
+    environment:
+      POSTGRES_USER : "nikita"
+      POSTGRES_PASSWORD : "nikita"
+      POSTGRES_DB : "bdbd"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ddproject-postgres-data:/var/lib/ddproject/postgresql/data
+
+volumes:
+  ddproject-postgres-data:

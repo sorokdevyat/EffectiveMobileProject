@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <RollingFile name="userLog" fileName="logs/user.log" filePattern="logs/user-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} %-5level - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="accountLog" fileName="logs/account.log" filePattern="logs/account-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} %-5level - %msg%n</pattern>
+            </PatternLayout>
+
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+            </Policies>
+        </RollingFile>
+        <Console name="consoleLog" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} %-5level - %msg%n</pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.ppr.java.effectivemobileproject.service.jpa.BankAccountServiceJpa">
+            <AppenderRef ref="accountLog" level="info"/>
+        </Logger>
+
+        <Logger name="com.ppr.java.effectivemobileproject.service.jpa.UserServiceJpa">
+            <AppenderRef ref="userLog" level="info"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="consoleLog"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
