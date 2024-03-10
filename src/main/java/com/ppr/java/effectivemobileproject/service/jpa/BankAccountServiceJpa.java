@@ -42,12 +42,6 @@ public class BankAccountServiceJpa implements BankAccountService {
     @Value("${deposit.everyMinuteIncrease}")
     private double everyMinuteIncrease;
     @Override
-    public BankAccountDto findByUsername(String username) {
-        BankAccount bankAccount = bankAccountRepository.findByUsername(username).orElse(new BankAccount());
-        return bankAccountMapper.fromAccountToDto(bankAccount);
-    }
-
-    @Override
     @Transactional
     public BankAccountDto save(BankAccountDto accountDto) {
         Optional<User> optionalUser = userService.findEntityById(accountDto.getUserId());//

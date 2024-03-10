@@ -2,7 +2,6 @@ package com.ppr.java.effectivemobileproject.mapping.account;
 
 import com.ppr.java.effectivemobileproject.dto.account.BankAccountDto;
 import com.ppr.java.effectivemobileproject.model.BankAccount;
-import com.ppr.java.effectivemobileproject.model.User;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 
@@ -16,9 +15,6 @@ public class BankAccountMapper {
                 .balance(accountDto.getBalance())
                 .deposit(accountDto.getDeposit())
                 .build();
-//        if (!ObjectUtils.isEmpty(accountDto.getUserId())){
-//            bankAccount.setUser(User.builder().id(accountDto.getUserId()).build());
-//        }
         return bankAccount;
     }
     public BankAccountDto fromAccountToDto(BankAccount account){

@@ -46,7 +46,6 @@ public class IntegrationEnvironment {
         userRepository.deleteAll();
         bankAccountRepository.deleteAll();
         transactionRepository.deleteAll();
-        
     }
 
     @DynamicPropertySource

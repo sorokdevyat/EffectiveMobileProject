@@ -13,7 +13,6 @@ import java.util.Set;
 @ToString
 @Builder
 @Table(name = "user",schema = "public")
-// Много телеофн и почт с помозью ElementedCollection,
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -2,7 +2,6 @@ package com.ppr.java.effectivemobileproject.contoller;
 
 import com.ppr.java.effectivemobileproject.dto.PageRequestDto;
 import com.ppr.java.effectivemobileproject.dto.PageResponseDto;
-import com.ppr.java.effectivemobileproject.dto.account.BankAccountDto;
 
 import com.ppr.java.effectivemobileproject.dto.user.UserDto;
 import com.ppr.java.effectivemobileproject.model.User;
@@ -10,9 +9,6 @@ import com.ppr.java.effectivemobileproject.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
 
 @RestController
 @RequiredArgsConstructor

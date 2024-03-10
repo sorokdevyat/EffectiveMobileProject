@@ -6,7 +6,6 @@ import com.ppr.java.effectivemobileproject.model.Transaction;
 import com.ppr.java.effectivemobileproject.repository.TransactionRepository;
 import com.ppr.java.effectivemobileproject.service.TransactionService;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.ObjectUtils;
@@ -14,11 +13,6 @@ import org.springframework.util.ObjectUtils;
 import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.NoSuchElementException;
-
-//Реализовать функционал перевода денег с одного
-//счета на другой. Со счета аутентифицированного
-//пользователя, на счёт другого пользователя.
-//Сделать все необходимые валидации и потокобезопасной.
 @Service
 @RequiredArgsConstructor
 public class TransactionServiceJpa implements TransactionService {

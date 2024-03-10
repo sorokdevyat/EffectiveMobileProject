@@ -1,21 +1,14 @@
-# Getting Started
+В нашей системе есть пользователи (клиенты), у каждого клиента есть строго один “банковский аккаунт”,
+в котором изначально лежит какая-то сумма, также есть сущность транзакций содержащая информацию об переводе средств между аккаунтами. 
+Деньги можно переводить между клиентами. На средства также начисляются проценты.
 
-### Reference Documentation
+Задачи:
+1)	Спроектировать архитектуру приложения.
+2)	Спроектировать базу данных.
+3)	Реализовать следующие функции:
+      -	Управление юзеарми и их аккаунтами.
+      -	Перевод средств между аккаунтами
+      -	Начисление процентов.
 
-For further reference, please consider the following sections:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/#build-image)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.2.3/reference/htmlsingle/index.html#data.sql.jpa-and-spring-data)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/3.2.3/reference/htmlsingle/index.html#web)
-
-### Guides
-
-The following guides illustrate how to use some features concretely:
-
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-
+**Не успел реализовать покрытие тестами функционала трансфера денег и аунтефикацию через JWT.**

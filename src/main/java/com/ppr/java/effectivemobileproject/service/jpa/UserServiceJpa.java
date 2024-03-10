@@ -2,36 +2,23 @@ package com.ppr.java.effectivemobileproject.service.jpa;
 
 import com.ppr.java.effectivemobileproject.dto.PageRequestDto;
 import com.ppr.java.effectivemobileproject.dto.PageResponseDto;
-import com.ppr.java.effectivemobileproject.dto.account.BankAccountDto;
-import com.ppr.java.effectivemobileproject.dto.transaction.TransactionDto;
 import com.ppr.java.effectivemobileproject.dto.user.UserDto;
 import com.ppr.java.effectivemobileproject.mapping.user.UserMapper;
 import com.ppr.java.effectivemobileproject.model.User;
-import com.ppr.java.effectivemobileproject.model.exceptions.ImpossibleBalanceException;
 import com.ppr.java.effectivemobileproject.model.exceptions.NotUniqueEmailException;
 import com.ppr.java.effectivemobileproject.model.exceptions.NotUniquePhoneException;
 import com.ppr.java.effectivemobileproject.repository.UserRepository;
-import com.ppr.java.effectivemobileproject.service.BankAccountService;
-import com.ppr.java.effectivemobileproject.service.TransactionService;
 import com.ppr.java.effectivemobileproject.service.UserService;
 import com.ppr.java.effectivemobileproject.specification.UserSpecification;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.ObjectUtils;
 
-import java.time.OffsetDateTime;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.Set;
-
-//Пользователь может добавить/сменить свои номер телефона и/или email, если они еще не заняты другими пользователями.
-//Пользователь может удалить свои телефон и/или email. При этом нельзя удалить ?последний.
-
 
 @Service
 @RequiredArgsConstructor

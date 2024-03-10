@@ -22,16 +22,9 @@ public class UserSpecification {
             if (!ObjectUtils.isEmpty(filter.getEmail())) {
                 predicates.add(criteriaBuilder.isMember(filter.getEmail(), root.get("emails")));
 
-//                predicates.add(criteriaBuilder.equal(
-//                        criteriaBuilder.lower(root.get("email")),
-//                        String.format("%s", filter.getEmail())));
             }
             if (!ObjectUtils.isEmpty(filter.getPhone())) {
                 predicates.add(criteriaBuilder.isMember(filter.getPhone(), root.get("phoneNumbers")));
-//
-//                predicates.add(criteriaBuilder.equal(
-//                        criteriaBuilder.lower(root.get("phoneNumbers")),
-//                        String.format("%s", filter.getPhone())));
             }
             if (!ObjectUtils.isEmpty(filter.getDateOfBirth())) {
                 predicates.add(criteriaBuilder.greaterThanOrEqualTo(root.get("dateOfBirth"), filter.getDateOfBirth()));

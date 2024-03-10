@@ -1,11 +1,9 @@
 package com.ppr.java.effectivemobileproject.dto.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.Column;
 import lombok.*;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Set;
 
 @Setter

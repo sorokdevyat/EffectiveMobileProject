@@ -1,7 +1,6 @@
 package com.ppr.java.effectivemobileproject.repository;
 
 import com.ppr.java.effectivemobileproject.model.BankAccount;
-import lombok.extern.java.Log;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
