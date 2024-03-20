@@ -73,7 +73,11 @@ public class BankAccountServiceJpa implements BankAccountService {
 
     @Override
     public BankAccountDto findById(Long id) {
-        return bankAccountMapper.fromAccountToDto(bankAccountRepository.findById(id).orElse(new BankAccount()));
+        Optional<BankAccount> byId = bankAccountRepository.findById(id);
+        if (byId.isEmpty()){
+            throw new NoSuchElementException();
+        }
+        return bankAccountMapper.fromAccountToDto(byId.get());
     }
 
     @Override

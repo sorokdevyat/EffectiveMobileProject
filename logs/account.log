@@ -1,109 +1,30 @@
-21:49:27.111 INFO  - Account with username 123 balance increased
-21:49:28.026 INFO  - Account with username 123 balance increased
-21:49:29.020 INFO  - Account with username 123 balance increased
-21:49:30.031 INFO  - Account with username 123 balance increased
-21:49:31.028 INFO  - Account with username 123 balance increased
-21:49:32.028 INFO  - Account with username 123 balance increased
-21:49:33.021 INFO  - Account with username 123 balance increased
-21:49:34.025 INFO  - Account with username 123 balance increased
-21:49:35.023 INFO  - Account with username 123 balance increased
-21:49:36.032 INFO  - Account with username 123 balance increased
-21:49:37.031 INFO  - Account with username 123 balance increased
-21:49:38.027 INFO  - Account with username 123 balance increased
-21:49:39.026 INFO  - Account with username 123 balance increased
-21:49:40.019 INFO  - Account with username 123 balance increased
-21:49:41.027 INFO  - Account with username 123 balance increased
-21:49:42.019 INFO  - Account with username 123 balance increased
-21:49:43.026 INFO  - Account with username 123 balance increased
-21:49:44.030 INFO  - Account with username 123 balance increased
-21:49:45.016 INFO  - Account with username 123 balance increased
-21:49:46.029 INFO  - Account with username 123 balance increased
-21:49:47.029 INFO  - Account with username 123 balance increased
-21:49:48.027 INFO  - Account with username 123 balance increased
-21:49:49.030 INFO  - Account with username 123 balance increased
-21:49:50.031 INFO  - Account with username 123 balance increased
-21:49:51.016 INFO  - Account with username 123 balance increased
-21:49:52.033 INFO  - Account with username 123 balance increased
-21:49:53.026 INFO  - Account with username 123 balance increased
-21:49:54.028 INFO  - Account with username 123 balance increased
-21:49:55.025 INFO  - Account with username 123 balance increased
-21:49:56.025 INFO  - Account with username 123 balance increased
-21:49:57.023 INFO  - Account with username 123 balance increased
-21:49:58.023 INFO  - Account with username 123 balance increased
-21:49:59.027 INFO  - Account with username 123 balance increased
-21:50:00.023 INFO  - Account with username 123 balance increased
-21:50:01.023 INFO  - Account with username 123 balance increased
-21:50:02.030 INFO  - Account with username 123 balance increased
-21:50:03.030 INFO  - Account with username 123 balance increased
-21:50:04.031 INFO  - Account with username 123 balance increased
-21:50:05.031 INFO  - Account with username 123 balance increased
-21:50:06.030 INFO  - Account with username 123 balance increased
-21:50:07.019 INFO  - Account with username 123 balance increased
-21:50:08.019 INFO  - Account with username 123 balance increased
-21:50:09.031 INFO  - Account with username 123 balance increased
-21:50:10.022 INFO  - Account with username 123 balance increased
-21:50:11.027 INFO  - Account with username 123 balance increased
-21:50:12.030 INFO  - Account with username 123 balance increased
-21:50:13.031 INFO  - Account with username 123 balance increased
-21:50:14.016 INFO  - Account with username 123 balance increased
-21:50:15.027 INFO  - Account with username 123 balance increased
-21:50:16.027 INFO  - Account with username 123 balance increased
-21:50:17.025 INFO  - Account with username 123 balance increased
-21:50:18.023 INFO  - Account with username 123 balance increased
-21:50:19.026 INFO  - Account with username 123 balance increased
-21:50:20.025 INFO  - Account with username 123 balance increased
-21:50:21.025 INFO  - Account with username 123 balance increased
-21:50:22.025 INFO  - Account with username 123 balance increased
-21:50:23.024 INFO  - Account with username 123 balance increased
-21:50:24.026 INFO  - Account with username 123 balance increased
-21:50:25.028 INFO  - Account with username 123 balance increased
-21:50:26.025 INFO  - Account with username 123 balance increased
-21:50:27.024 INFO  - Account with username 123 balance increased
-21:50:28.022 INFO  - Account with username 123 balance increased
-21:50:29.028 INFO  - Account with username 123 balance increased
-21:50:30.031 INFO  - Account with username 123 balance increased
-21:50:31.030 INFO  - Account with username 123 balance increased
-21:50:32.018 INFO  - Account with username 123 balance increased
-21:50:33.019 INFO  - Account with username 123 balance increased
-21:50:34.017 INFO  - Account with username 123 balance increased
-21:50:35.017 INFO  - Account with username 123 balance increased
-21:50:36.019 INFO  - Account with username 123 balance increased
-21:50:37.018 INFO  - Account with username 123 balance increased
-21:50:38.020 INFO  - Account with username 123 balance increased
-21:50:39.017 INFO  - Account with username 123 balance increased
-21:50:40.026 INFO  - Account with username 123 balance increased
-21:50:41.026 INFO  - Account with username 123 balance increased
-21:50:42.023 INFO  - Account with username 123 balance increased
-21:50:43.024 INFO  - Account with username 123 balance increased
-21:50:44.029 INFO  - Account with username 123 balance increased
-21:50:45.016 INFO  - Account with username 123 balance increased
-21:50:46.016 INFO  - Account with username 123 balance increased
-21:50:47.019 INFO  - Account with username 123 balance increased
-21:50:48.018 INFO  - Account with username 123 balance increased
-21:50:49.031 INFO  - Account with username 123 balance increased
-21:50:50.017 INFO  - Account with username 123 balance increased
-21:50:51.023 INFO  - Account with username 123 balance increased
-21:50:52.029 INFO  - Account with username 123 balance increased
-21:50:53.027 INFO  - Account with username 123 balance increased
-21:50:54.025 INFO  - Account with username 123 balance increased
-21:50:55.022 INFO  - Account with username 123 balance increased
-21:50:56.020 INFO  - Account with username 123 balance increased
-21:50:57.024 INFO  - Account with username 123 balance increased
-21:50:58.020 INFO  - Account with username 123 balance increased
-21:50:59.020 INFO  - Account with username 123 balance increased
-21:51:00.023 INFO  - Account with username 123 balance increased
-21:51:01.024 INFO  - Account with username 123 balance increased
-21:51:02.027 INFO  - Account with username 123 balance increased
-21:51:03.029 INFO  - Account with username 123 balance increased
-21:51:04.025 INFO  - Account with username 123 balance increased
-21:51:05.016 INFO  - Account with username 123 balance increased
-21:51:06.030 INFO  - Account with username 123 balance increased
-21:51:07.027 INFO  - Account with username 123 balance increased
-21:51:08.023 INFO  - Account with username 123 balance increased
-21:51:09.015 INFO  - Account with username 123 balance increased
-21:51:10.018 INFO  - Account with username 123 balance increased
-21:51:11.027 INFO  - Account with username 123 balance increased
-21:51:12.029 INFO  - Account with username 123 balance increased
-21:51:13.025 INFO  - Account with username 123 balance increased
-21:51:14.024 INFO  - Account with username 123 balance increased
-21:51:15.025 INFO  - Account with username 123 balance increased
+20:13:01.032 INFO  - Update account with username 4c036ddd-cf53-4e3f-a549-65b044feb652
+20:13:01.041 INFO  - Update account with username c71abddd-2a42-48ef-83d0-d255cce19310
+20:13:01.042 INFO  - Transaction between users with id 1 and 2 created
+20:17:14.340 INFO  - Update account with username 73e81017-8c3f-4e14-a0ff-cb26b91d6469
+20:17:14.345 INFO  - Update account with username 13b7740a-ca57-4e29-b6cf-2fa30e64f66a
+20:17:14.347 INFO  - Transaction between users with id 1 and 2 created
+20:19:00.657 INFO  - Update account with username 23f6f360-215c-4b01-ab45-999dd1794aeb
+20:19:00.664 INFO  - Update account with username 0f4a27eb-f910-4261-8400-b8b7e04455d7
+20:19:00.667 INFO  - Transaction between users with id 1 and 2 created
+20:19:13.488 INFO  - Update account with username 9541e93f-c6b8-434c-9738-3a59a0a9de3a
+20:19:13.491 INFO  - Update account with username dc02e625-9960-42e6-9b82-70efb68ade65
+20:19:13.493 INFO  - Transaction between users with id 1 and 2 created
+20:19:37.527 INFO  - Update account with username 1c5deb0f-5623-4b00-bb34-84cd8bfe03e3
+20:19:37.532 INFO  - Update account with username 3e43f1e1-fb78-4a3b-a5e9-90f69fbb05de
+20:19:37.534 INFO  - Transaction between users with id 1 and 2 created
+20:27:01.246 INFO  - Update account with username 8aff421b-f291-4dbe-bac6-96b3f1fed2f8
+20:27:01.250 INFO  - Update account with username 38d06803-7961-4576-99dc-26b7694520f7
+20:27:01.251 INFO  - Transaction between users with id 1 and 2 created
+20:28:14.835 INFO  - Update account with username 54760f1d-34cd-4fe5-91b3-e4781b02a294
+20:28:14.840 INFO  - Update account with username 7a5ea018-4839-4bc7-adac-94d31a279da6
+20:28:14.841 INFO  - Transaction between users with id 1 and 2 created
+20:29:05.235 INFO  - Update account with username 92b7b226-4230-4ec4-a809-cafb18b27374
+20:29:05.239 INFO  - Update account with username c0250841-899b-439f-80c1-8560bacc3a7a
+20:29:05.241 INFO  - Transaction between users with id 1 and 2 created
+20:31:37.846 INFO  - Update account with username feb1e451-307b-435a-88ab-99d58fa7078e
+20:31:37.851 INFO  - Update account with username c05f0e4b-d33b-4668-bb6c-292fe3abf2f7
+20:31:37.852 INFO  - Transaction between users with id 1 and 2 created
+20:32:29.548 INFO  - Update account with username 82feca12-347f-433d-a8f0-a3a9a2c4e270
+20:32:29.552 INFO  - Update account with username a2e301bf-046b-4851-822f-61319dc716fa
+20:32:29.554 INFO  - Transaction between users with id 1 and 2 created

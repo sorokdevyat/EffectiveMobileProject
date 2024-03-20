@@ -8,6 +8,7 @@ import org.springframework.util.ObjectUtils;
 @Component
 public class BankAccountMapper {
     public BankAccount fromDtoToAccount(BankAccountDto accountDto){
+
         BankAccount bankAccount = BankAccount.builder()
                 .id(accountDto.getId())
                 .username(accountDto.getUsername())
