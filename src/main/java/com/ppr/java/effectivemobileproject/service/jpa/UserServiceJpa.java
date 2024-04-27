@@ -29,7 +29,7 @@ public class UserServiceJpa implements UserService {
 
     @Override
     public PageResponseDto<User> search(PageRequestDto pageRequestDto) {
-        List<User> pageOfUsers = userRepository.findAll(UserSpecification.getSpec(pageRequestDto.getFilter()),
+        List<User> pageOfUsers = userRepository.findAll(UserSpecification.getSpec(pageRequestDto.getData()),
                 PageRequest.of(pageRequestDto.getPage(), pageRequestDto.getSize())).getContent();
 
         return PageResponseDto.<User>builder()

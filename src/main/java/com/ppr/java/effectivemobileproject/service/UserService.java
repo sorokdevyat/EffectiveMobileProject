@@ -15,8 +15,4 @@ public interface UserService {
     UserDto deleteEmail(Long id,String email);
     PageResponseDto<User> search(PageRequestDto userFilter);
     Optional<User> findEntityById(Long id);
-
-
-
-
 }

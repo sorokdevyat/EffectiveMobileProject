@@ -6,8 +6,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PageRequestDto {
+public class PageRequestDto<T> {
     private int page;
     private int size;
-    private UserFilter filter;
+    private T data;
 }

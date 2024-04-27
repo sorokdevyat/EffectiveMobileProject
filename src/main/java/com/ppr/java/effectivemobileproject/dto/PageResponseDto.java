@@ -12,6 +12,6 @@ import java.util.List;
 public class PageResponseDto<T> {
     private int page;
     private int total;
+    private int size; // размер стр
     private List<T> responsePage;
-
 }
